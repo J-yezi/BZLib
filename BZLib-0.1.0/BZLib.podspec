@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.authors = {"j-yezi"=>"yehao@codoon.com"}
   s.homepage = "https://github.com/j-yezi/BZLib"
   s.description = "TODO: Add long description of the pod here."
-  s.frameworks = "UIKit"
+  s.frameworks = "Foundation"
   s.source = { :path => '.' }
 
   s.ios.deployment_target    = '9.0'
