@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'BZLib' => ['BZLib/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
   
