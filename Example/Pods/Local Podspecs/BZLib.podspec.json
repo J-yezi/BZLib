@@ -12,11 +12,12 @@
     "j-yezi": "yehao@codoon.com"
   },
   "source": {
-    "git": "https://github.com/j-yezi/BZLib.git",
+    "git": "https://github.com/J-yezi/BZLib.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "BZLib/Classes/**/*"
+  "source_files": "BZLib/Classes/**/*",
+  "frameworks": "UIKit"
 }
