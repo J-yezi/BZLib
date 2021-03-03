@@ -9,7 +9,7 @@
 
 @implementation A
 
-+ (void)logs {
++ (void)logssss {
     NSLog(@"----aaaaaa");
 }
 

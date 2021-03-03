@@ -6,13 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Masonry/Masonry.h>
+//#import <Masonry/Masonry.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface A : NSObject
 
-+ (void)logssss;
++ (void)logs;
 
 + (void)a;
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BZLib'
-  s.version          = '0.10.0'
+  s.version          = '0.11.0'
   s.summary          = 'A short description of BZLib.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/j-yezi/BZLib'
+  s.homepage         = 'https://github.com/j-yezi/BZLibssss'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'j-yezi' => 'yehao@codoon.com' }
@@ -40,10 +40,7 @@ TODO: Add long description of the pod here.
 
   s.public_header_files = 'BZLib/Classes/**/*.h'
   s.frameworks = 'Foundation', 'UIKit'
-  
-  #  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  #  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  # s.dependency 'Masonry'
+   s.dependency 'Masonry'
 
 end
