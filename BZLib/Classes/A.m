@@ -9,8 +9,12 @@
 
 @implementation A
 
-+ (void)log {
-    NSLog(@"aaaaaa");
++ (void)logs {
+    NSLog(@"----aaaaaa");
+}
+
++ (void)a {
+    
 }
 
 @end

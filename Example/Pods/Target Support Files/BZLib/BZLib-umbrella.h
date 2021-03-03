@@ -11,6 +11,7 @@
 #endif
 
 #import "A.h"
+#import "CustomView.h"
 
 FOUNDATION_EXPORT double BZLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char BZLibVersionString[];

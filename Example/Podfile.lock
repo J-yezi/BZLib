@@ -1,15 +1,22 @@
 PODS:
-  - BZLib (0.1.0)
+  - BZLib (0.6.0):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - BZLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   BZLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BZLib: 6e366120197292acc8f3f2fcbc5a2be54bc769f7
+  BZLib: 02aa3fdcbc0faeb4f80a958d1b7f8c8a8795bc82
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 8288f54c43a843b7077982e56a62958fe3bb1bf9
 

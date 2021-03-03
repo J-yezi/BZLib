@@ -306,10 +306,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BZLib_Example/Pods-BZLib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BZLib/BZLib.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BZLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BZLib'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'A short description of BZLib.'
 
 # This description is used to generate tags and improve search results.
@@ -25,21 +25,25 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'j-yezi' => 'yehao@codoon.com' }
-  s.source           = { :git => 'https://github.com/J-yezi/BZLib.git', :tag => s.version.to_s }
+  s.source           = { :git => '/Users/niko/Desktop/BZLib', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'BZLib/Classes/**/*'
+
+  s.requires_arc = true
   
   # s.resource_bundles = {
   #   'BZLib' => ['BZLib/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'BZLib/Classes/**/*.h'
+  s.frameworks = 'Foundation', 'UIKit'
   
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
+#  s.dependency 'Masonry'
+
 end

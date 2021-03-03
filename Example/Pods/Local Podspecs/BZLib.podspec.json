@@ -1,6 +1,6 @@
 {
   "name": "BZLib",
-  "version": "0.1.0",
+  "version": "0.6.0",
   "summary": "A short description of BZLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/j-yezi/BZLib",
@@ -12,12 +12,25 @@
     "j-yezi": "yehao@codoon.com"
   },
   "source": {
-    "git": "https://github.com/J-yezi/BZLib.git",
-    "tag": "0.1.0"
+    "git": "/Users/niko/Desktop/BZLib",
+    "tag": "0.6.0"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "BZLib/Classes/**/*",
-  "frameworks": "UIKit"
+  "requires_arc": true,
+  "public_header_files": "BZLib/Classes/**/*.h",
+  "frameworks": "Foundation",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }
