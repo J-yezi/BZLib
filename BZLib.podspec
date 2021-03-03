@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BZLib'
-  s.version          = '0.8.0'
+  s.version          = '0.9.0'
   s.summary          = 'A short description of BZLib.'
 
 # This description is used to generate tags and improve search results.
@@ -41,9 +41,9 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'BZLib/Classes/**/*.h'
   s.frameworks = 'Foundation', 'UIKit'
   
-   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  s.dependency 'Masonry'
+  # s.dependency 'Masonry'
 
 end

@@ -18,10 +18,10 @@
         UIView *a = [UIView new];
         a.backgroundColor = [UIColor redColor];
         [self addSubview:a];
-        [a mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.center.equalTo(self);
-            make.size.mas_equalTo(CGSizeMake(50, 20));
-        }];
+//        [a mas_makeConstraints:^(MASConstraintMaker *make) {
+//            make.center.equalTo(self);
+//            make.size.mas_equalTo(CGSizeMake(50, 20));
+//        }];
     }
     return self;
 }
